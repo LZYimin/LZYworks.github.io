@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>攝影 | LZY</title>
+		<meta name="description" content="Decorative &amp; interactive isometric &amp; 3D grids." />
+		<meta name="keywords" content="isometric, grid, images, masonry, perspective" />
+		<meta name="author" content="Codrops" />
+		
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+		<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-7243260-2']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+	</head>
+	<body class="demo-1">
+        <style>
+            #popup{
+                position: fixed;
+                left: 0px;
+                top: 0px;
+                width: 100%;
+                height: 100%;
+                text-align: center;
+                display: none;
+                z-index: 9999;
+            }
+            #popup .bg{
+                background-color: rgba(0,0,0,0.5);
+                width: 100%;
+                height: 100%;
+            }
+            @media \0screen\,screen\9 {
+                #popup .bg{
+                    background-color:#141715;
+                    filter:Alpha(opacity=50);
+                    position:static;
+                }
+                #popup .bg img{
+                    position: relative;
+                    
+                }
+            }
+            #popup img{
+                margin-top: 2%;
+                max-height: 90%;
+               
+            }
+        </style>
+    
+		<main>
+			<header class="codrops-header">
+				<h1>PROJECT</h1>
+				<p>Lzy. | 學習需要實踐，製作專案是個很好的機會<p>
+				<nav class="codrops-demos">
+					<a class="current-demo" href="topic.html">專案</a>
+                    <a href="..\3D\3D.html">3D</a>
+					<a href="..\photograph\photograph.html">攝影</a>
+				</nav>
+				<div class="codrops-links">
+					<a class="codrops-icon codrops-icon--prev" href="../index.html" title="Previous Demo"><span>首頁</span></a>
+				
+				</div>
+				
+			</header>
+
+            <div class="isolayer isolayer--scroll1 isolayer--shadow">
+				<ul class="grid grid--effect-flip">
+					<li class="grid__item">
+						<a class="grid__link" href="https://youtu.be/UYJA9VgMJBM">
+							<img class="grid__img layer" src="img/canvas.png" alt="Canvas Dummy" />
+							<img class="grid__img layer" src="img/wireframe.png" alt="Wireframe Dummy" />
+							<img class="grid__img layer" src="img/1.png" alt="01" />
+							<span class="grid__title">107-2 幸福樹館</span>
+						</a>
+					</li>
+					<li class="grid__item">
+						<a class="grid__link" href="https://youtu.be/X4_mr9icnBk">
+							<img class="grid__img layer" src="img/canvas.png" alt="Canvas Dummy" />
+							<img class="grid__img layer" src="img/wireframe.png" alt="Wireframe Dummy" />
+							<img class="grid__img layer" src="img/6.png" alt="021" />
+							<span class="grid__title">108-1 Leap Motion</span>
+						</a>
+					</li>
+					<li class="grid__item">
+						<a class="grid__link" href="https://youtu.be/XtTZS9xLnFI">
+							<img class="grid__img layer" src="img/canvas.png" alt="Canvas Dummy" />
+							<img class="grid__img layer" src="img/wireframe.png" alt="Wireframe Dummy" />
+							<img class="grid__img layer" src="img/2.png" alt="03" />
+							<span class="grid__title">108-2 放肆！大膽奴才</span>
+						</a>
+					</li>
+					<li class="grid__item">
+						<a class="grid__link" href="https://youtu.be/dPkvHWpH-Us">
+							<img class="grid__img layer" src="img/canvas.png" alt="Canvas Dummy" />
+							<img class="grid__img layer" src="img/wireframe.png" alt="Wireframe Dummy" />
+							<img class="grid__img layer" src="img/5.png" alt="042" />
+							<span class="grid__title">108-2 角落生物</span>
+						</a>
+					</li>
+					<li class="grid__item">
+						<a class="grid__link" href="https://youtu.be/FE3BBayP12M">
+							<img class="grid__img layer" src="img/canvas.png" alt="Canvas Dummy" />
+							<img class="grid__img layer" src="img/wireframe.png" alt="Wireframe Dummy" />
+							<img class="grid__img layer" src="img/3.png" alt="011" />
+							<span class="grid__title">108-2 3D期末作業</span>
+						</a>
+					</li>
+					<li class="grid__item">
+						<a class="grid__link" href="https://youtu.be/-VEjehAWRdU">
+							<img class="grid__img layer" src="img/canvas.png" alt="Canvas Dummy" />
+							<img class="grid__img layer" src="img/wireframe.png" alt="Wireframe Dummy" />
+							<img class="grid__img layer" src="img/4.png" alt="02" />
+							<span class="grid__title">109-1 Smart Mirror</span>
+						</a>
+					</li>
+					
+            </ul>
+        </div>
+    </main>
+
+
+            <div id="popup">
+                <div class="bg">
+                  <img src=""/>
+                </div>
+              </div>
+    
+            <script type="text/javascript">
+                var imgs = document.getElementById("pimg").getElementsByTagName("img");
+                var lens = imgs.length;
+                var popup = document.getElementById("popup");
+            
+                for(var i = 0; i < lens; i++){
+                    imgs[i].onclick = function (event){
+                        event = event||window.event;
+                        var target = document.elementFromPoint(event.clientX, event.clientY);
+                        showBig(target.src);
+                    }
+                }
+                popup.onclick = function (){
+                    popup.style.display = "none";
+                }
+                function showBig(src){
+                    popup.getElementsByTagName("img")[0].src = src;
+                    popup.style.display = "block";
+                }
+            </script>
+    
+            <script src="js/imagesloaded.pkgd.min.js"></script>
+            <script src="js/masonry.pkgd.min.js"></script>
+            <script src="js/dynamics.min.js"></script>
+            <script src="js/classie.js"></script>
+            <script src="js/animOnScroll.js"></script>
+            <script src="js/main.js"></script>
+          
+            <script>
+            (function() {
+                function getRandomInt(min, max) {
+                    return Math.floor(Math.random() * (max - min + 1)) + min;
+                }
+    
+                [].slice.call(document.querySelectorAll('.isolayer')).forEach(function(el) {
+                    new IsoGrid(el, {
+                        type : 'scrollable',
+                        transform : 'translateX(-15vw) translateY(275px) rotateX(45deg) rotateZ(45deg)',
+                        stackItemsAnimation : {
+                            properties : function(pos) {
+                                return {
+                                    translateZ: (pos+1) * 50,
+                                    rotateZ: getRandomInt(-3, 3)
+                                };
+                            },
+                            options : function(pos, itemstotal) {
+                                return {
+                                    type: dynamics.bezier,
+                                    duration: 500,
+                                    points: [{"x":0,"y":0,"cp":[{"x":0.2,"y":1}]},{"x":1,"y":1,"cp":[{"x":0.3,"y":1}]}],
+                                    //delay: (itemstotal-pos-1)*40
+                                };
+                            }
+                        },
+                        onGridLoaded : function() {
+                            classie.add(document.body, 'grid-loaded');
+                        }
+                    });
+                });
+            })();
+            </script>
+        </body>
+    </html>
